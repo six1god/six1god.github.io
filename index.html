@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 3D Model Viewer</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <!-- Add your 3D model here -->
+        <a-assets>
+            <a-asset-item id="model" src="URL_TO_YOUR_MODEL"></a-asset-item>
+        </a-assets>
+        <a-entity gltf-model="#model"></a-entity>
+    </a-scene>
+</body>
+</html>
